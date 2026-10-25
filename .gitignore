@@ -1,0 +1,15 @@
+__pycache__/
+.ipynb_checkpoints/
+*.log
+*.safetensors
+*.bin
+
+# 忽略大文件夹
+output/
+coco_2014_caption/
+swanlog/
+
+# 忽略由代码生成的大 json 文件（只传脚本即可）
+data_vl.json
+data_vl_train.json
+data_vl_test.json
